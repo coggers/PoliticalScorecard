@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliticalScorecard", "PoliticalScorecard\PoliticalScorecard.csproj", "{E04D84A9-192F-4D9C-BD23-75DEE068A8C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliticalScorecard.Tests", "PoliticalScorecard.Tests\PoliticalScorecard.Tests.csproj", "{B4C6621E-CF5F-465D-A1B3-0B53820D9DFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{BE80BE52-082C-4D9D-B26A-417555C2D09A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{22204E36-CC47-4348-B4F2-B7BC9A89528A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\PoliticalScorecard-WAWS-dev.json = PublishScripts\Configurations\PoliticalScorecard-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E04D84A9-192F-4D9C-BD23-75DEE068A8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04D84A9-192F-4D9C-BD23-75DEE068A8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04D84A9-192F-4D9C-BD23-75DEE068A8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04D84A9-192F-4D9C-BD23-75DEE068A8C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C6621E-CF5F-465D-A1B3-0B53820D9DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C6621E-CF5F-465D-A1B3-0B53820D9DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C6621E-CF5F-465D-A1B3-0B53820D9DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C6621E-CF5F-465D-A1B3-0B53820D9DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22204E36-CC47-4348-B4F2-B7BC9A89528A} = {BE80BE52-082C-4D9D-B26A-417555C2D09A}
+	EndGlobalSection
+EndGlobal
